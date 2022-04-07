@@ -34,7 +34,6 @@ header {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    align-content: center;
 }
 
 header h1 .seo {
@@ -44,7 +43,7 @@ header h1 .seo {
 /* NAV */
 
 nav {
-
+    margin-top: 20px;
 }
 
 nav ul li {
