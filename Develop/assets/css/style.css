@@ -127,7 +127,7 @@ aside h3 {
 
 aside img {
     margin: 10px auto;
-    max-width: 150px;
+    width: 100%;
 }
 
 /* FOOTER */
