@@ -76,31 +76,35 @@ main {
 
 /* CONTENT BOXES */
 
-.content {
+article {
     color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.content-box {
     background-color: #0072bb;
     margin-bottom: 20px;
     padding: 40px;
     display: flex;
-    justify-content: center;
 }
 
-.content-box img {
+article img {
     height: 150px;
-    margin-right: 40px;
 }
 
-.content-box h2 {
-    margin-bottom: 20px;
+article div {
+    margin-left: 20px;
+}
+
+article h2 {
+    margin-bottom: 15px;
     font-size: 34px;
+    line-height: 1em;
 }
 
-.content-box h2, .content-box p {
-    width: 80%;
+article h2, article p {
+    width: 90%;
+}
+
+.position-left div {
+
 }
 
 /* SIDE BAR */
