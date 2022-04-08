@@ -103,8 +103,13 @@ article h2, article p {
     width: 90%;
 }
 
-.position-left div {
+article.position-left {
+    flex-direction: row-reverse;
+}
 
+article.position-left div {
+    margin-left: 0;
+    margin-right: 20px;
 }
 
 /* SIDE BAR */
