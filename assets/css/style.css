@@ -63,7 +63,8 @@ nav a:hover {
     height: 100vh;
     width: 100%;
     margin-bottom: 25px;
-    background: url("../images/digital-marketing-meeting.jpg") center;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-position: center;
     background-size: cover;
 }
 
@@ -151,20 +152,43 @@ footer h2 {
 
 /* MEDIA */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 900px) {
     
-    nav ul li {
+    header {
         display: block;
-        font-size: 18px;
-        padding-bottom: 10px;
+        padding: 25px 0;
     }
+
+    header h1, header nav ul {
+        text-align: center;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-left: 0;
+        padding: 5px 0;
+}
 
     #hero {
-        height: 500px;
+        height: 400px;
+        background-position: top;
+        
     }
 
-    .content-box h2, .content-box p {
-        width: 100%;
+    main {
+        display: block;
+    }
+
+    aside {
+        text-align: center;
+        margin: 0;
+    }
+
+    aside img {
+        height: 200px;
+        width: 200px;
     }
 
 }
