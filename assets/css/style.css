@@ -152,7 +152,7 @@ footer h2 {
 
 /* MEDIA */
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 768px) {
     
     header {
         display: block;
