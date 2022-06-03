@@ -1,4 +1,4 @@
-# UWCB-01-Homework
+# Horiseon Code Refactor
 UW Coding Bootcamp : Homework 01
 
 ## Description
